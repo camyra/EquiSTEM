@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86A8D26D2A4A12D30017CAFA /* EquiSTEMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A8D26C2A4A12D30017CAFA /* EquiSTEMApp.swift */; };
+		86A8D26F2A4A12D30017CAFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A8D26E2A4A12D30017CAFA /* ContentView.swift */; };
+		86A8D2712A4A12DB0017CAFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A8D2702A4A12DB0017CAFA /* Assets.xcassets */; };
+		86A8D2752A4A12DB0017CAFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A8D2742A4A12DB0017CAFA /* Preview Assets.xcassets */; };
+		86A8D27F2A4A12DC0017CAFA /* EquiSTEMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A8D27E2A4A12DC0017CAFA /* EquiSTEMTests.swift */; };
+		86A8D2892A4A12DC0017CAFA /* EquiSTEMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A8D2882A4A12DC0017CAFA /* EquiSTEMUITests.swift */; };
+		86A8D28B2A4A12DC0017CAFA /* EquiSTEMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A8D28A2A4A12DC0017CAFA /* EquiSTEMUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86A8D27B2A4A12DC0017CAFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86A8D2612A4A12D20017CAFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86A8D2682A4A12D30017CAFA;
+			remoteInfo = EquiSTEM;
+		};
+		86A8D2852A4A12DC0017CAFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86A8D2612A4A12D20017CAFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86A8D2682A4A12D30017CAFA;
+			remoteInfo = EquiSTEM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86A8D2692A4A12D30017CAFA /* EquiSTEM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EquiSTEM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86A8D26C2A4A12D30017CAFA /* EquiSTEMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquiSTEMApp.swift; sourceTree = "<group>"; };
+		86A8D26E2A4A12D30017CAFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		86A8D2702A4A12DB0017CAFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86A8D2722A4A12DB0017CAFA /* EquiSTEM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EquiSTEM.entitlements; sourceTree = "<group>"; };
+		86A8D2742A4A12DB0017CAFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		86A8D27A2A4A12DC0017CAFA /* EquiSTEMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EquiSTEMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86A8D27E2A4A12DC0017CAFA /* EquiSTEMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquiSTEMTests.swift; sourceTree = "<group>"; };
+		86A8D2842A4A12DC0017CAFA /* EquiSTEMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EquiSTEMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86A8D2882A4A12DC0017CAFA /* EquiSTEMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquiSTEMUITests.swift; sourceTree = "<group>"; };
+		86A8D28A2A4A12DC0017CAFA /* EquiSTEMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquiSTEMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86A8D2662A4A12D30017CAFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A8D2772A4A12DC0017CAFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A8D2812A4A12DC0017CAFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86A8D2602A4A12D20017CAFA = {
+			isa = PBXGroup;
+			children = (
+				86A8D26B2A4A12D30017CAFA /* EquiSTEM */,
+				86A8D27D2A4A12DC0017CAFA /* EquiSTEMTests */,
+				86A8D2872A4A12DC0017CAFA /* EquiSTEMUITests */,
+				86A8D26A2A4A12D30017CAFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86A8D26A2A4A12D30017CAFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86A8D2692A4A12D30017CAFA /* EquiSTEM.app */,
+				86A8D27A2A4A12DC0017CAFA /* EquiSTEMTests.xctest */,
+				86A8D2842A4A12DC0017CAFA /* EquiSTEMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86A8D26B2A4A12D30017CAFA /* EquiSTEM */ = {
+			isa = PBXGroup;
+			children = (
+				86A8D26C2A4A12D30017CAFA /* EquiSTEMApp.swift */,
+				86A8D26E2A4A12D30017CAFA /* ContentView.swift */,
+				86A8D2702A4A12DB0017CAFA /* Assets.xcassets */,
+				86A8D2722A4A12DB0017CAFA /* EquiSTEM.entitlements */,
+				86A8D2732A4A12DB0017CAFA /* Preview Content */,
+			);
+			path = EquiSTEM;
+			sourceTree = "<group>";
+		};
+		86A8D2732A4A12DB0017CAFA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				86A8D2742A4A12DB0017CAFA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		86A8D27D2A4A12DC0017CAFA /* EquiSTEMTests */ = {
+			isa = PBXGroup;
+			children = (
+				86A8D27E2A4A12DC0017CAFA /* EquiSTEMTests.swift */,
+			);
+			path = EquiSTEMTests;
+			sourceTree = "<group>";
+		};
+		86A8D2872A4A12DC0017CAFA /* EquiSTEMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86A8D2882A4A12DC0017CAFA /* EquiSTEMUITests.swift */,
+				86A8D28A2A4A12DC0017CAFA /* EquiSTEMUITestsLaunchTests.swift */,
+			);
+			path = EquiSTEMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86A8D2682A4A12D30017CAFA /* EquiSTEM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86A8D28E2A4A12DC0017CAFA /* Build configuration list for PBXNativeTarget "EquiSTEM" */;
+			buildPhases = (
+				86A8D2652A4A12D30017CAFA /* Sources */,
+				86A8D2662A4A12D30017CAFA /* Frameworks */,
+				86A8D2672A4A12D30017CAFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EquiSTEM;
+			productName = EquiSTEM;
+			productReference = 86A8D2692A4A12D30017CAFA /* EquiSTEM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86A8D2792A4A12DC0017CAFA /* EquiSTEMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86A8D2912A4A12DC0017CAFA /* Build configuration list for PBXNativeTarget "EquiSTEMTests" */;
+			buildPhases = (
+				86A8D2762A4A12DC0017CAFA /* Sources */,
+				86A8D2772A4A12DC0017CAFA /* Frameworks */,
+				86A8D2782A4A12DC0017CAFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86A8D27C2A4A12DC0017CAFA /* PBXTargetDependency */,
+			);
+			name = EquiSTEMTests;
+			productName = EquiSTEMTests;
+			productReference = 86A8D27A2A4A12DC0017CAFA /* EquiSTEMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86A8D2832A4A12DC0017CAFA /* EquiSTEMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86A8D2942A4A12DC0017CAFA /* Build configuration list for PBXNativeTarget "EquiSTEMUITests" */;
+			buildPhases = (
+				86A8D2802A4A12DC0017CAFA /* Sources */,
+				86A8D2812A4A12DC0017CAFA /* Frameworks */,
+				86A8D2822A4A12DC0017CAFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86A8D2862A4A12DC0017CAFA /* PBXTargetDependency */,
+			);
+			name = EquiSTEMUITests;
+			productName = EquiSTEMUITests;
+			productReference = 86A8D2842A4A12DC0017CAFA /* EquiSTEMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86A8D2612A4A12D20017CAFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					86A8D2682A4A12D30017CAFA = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					86A8D2792A4A12DC0017CAFA = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 86A8D2682A4A12D30017CAFA;
+					};
+					86A8D2832A4A12DC0017CAFA = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 86A8D2682A4A12D30017CAFA;
+					};
+				};
+			};
+			buildConfigurationList = 86A8D2642A4A12D20017CAFA /* Build configuration list for PBXProject "EquiSTEM" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86A8D2602A4A12D20017CAFA;
+			productRefGroup = 86A8D26A2A4A12D30017CAFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86A8D2682A4A12D30017CAFA /* EquiSTEM */,
+				86A8D2792A4A12DC0017CAFA /* EquiSTEMTests */,
+				86A8D2832A4A12DC0017CAFA /* EquiSTEMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86A8D2672A4A12D30017CAFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A8D2752A4A12DB0017CAFA /* Preview Assets.xcassets in Resources */,
+				86A8D2712A4A12DB0017CAFA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A8D2782A4A12DC0017CAFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A8D2822A4A12DC0017CAFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86A8D2652A4A12D30017CAFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A8D26F2A4A12D30017CAFA /* ContentView.swift in Sources */,
+				86A8D26D2A4A12D30017CAFA /* EquiSTEMApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A8D2762A4A12DC0017CAFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A8D27F2A4A12DC0017CAFA /* EquiSTEMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A8D2802A4A12DC0017CAFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A8D28B2A4A12DC0017CAFA /* EquiSTEMUITestsLaunchTests.swift in Sources */,
+				86A8D2892A4A12DC0017CAFA /* EquiSTEMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86A8D27C2A4A12DC0017CAFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86A8D2682A4A12D30017CAFA /* EquiSTEM */;
+			targetProxy = 86A8D27B2A4A12DC0017CAFA /* PBXContainerItemProxy */;
+		};
+		86A8D2862A4A12DC0017CAFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86A8D2682A4A12D30017CAFA /* EquiSTEM */;
+			targetProxy = 86A8D2852A4A12DC0017CAFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		86A8D28C2A4A12DC0017CAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86A8D28D2A4A12DC0017CAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		86A8D28F2A4A12DC0017CAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EquiSTEM/EquiSTEM.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EquiSTEM/Preview Content\"";
+				DEVELOPMENT_TEAM = 8JA873P3GP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kwk.EquiSTEM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86A8D2902A4A12DC0017CAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EquiSTEM/EquiSTEM.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EquiSTEM/Preview Content\"";
+				DEVELOPMENT_TEAM = 8JA873P3GP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kwk.EquiSTEM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86A8D2922A4A12DC0017CAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JA873P3GP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kwk.EquiSTEMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EquiSTEM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EquiSTEM";
+			};
+			name = Debug;
+		};
+		86A8D2932A4A12DC0017CAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JA873P3GP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kwk.EquiSTEMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EquiSTEM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EquiSTEM";
+			};
+			name = Release;
+		};
+		86A8D2952A4A12DC0017CAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JA873P3GP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kwk.EquiSTEMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EquiSTEM;
+			};
+			name = Debug;
+		};
+		86A8D2962A4A12DC0017CAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JA873P3GP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kwk.EquiSTEMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EquiSTEM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86A8D2642A4A12D20017CAFA /* Build configuration list for PBXProject "EquiSTEM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86A8D28C2A4A12DC0017CAFA /* Debug */,
+				86A8D28D2A4A12DC0017CAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86A8D28E2A4A12DC0017CAFA /* Build configuration list for PBXNativeTarget "EquiSTEM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86A8D28F2A4A12DC0017CAFA /* Debug */,
+				86A8D2902A4A12DC0017CAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86A8D2912A4A12DC0017CAFA /* Build configuration list for PBXNativeTarget "EquiSTEMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86A8D2922A4A12DC0017CAFA /* Debug */,
+				86A8D2932A4A12DC0017CAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86A8D2942A4A12DC0017CAFA /* Build configuration list for PBXNativeTarget "EquiSTEMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86A8D2952A4A12DC0017CAFA /* Debug */,
+				86A8D2962A4A12DC0017CAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86A8D2612A4A12D20017CAFA /* Project object */;
+}
