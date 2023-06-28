@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		867C1B192A4B63A400DA346B /* ImpactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C1B182A4B63A400DA346B /* ImpactView.swift */; };
+		867C1B1B2A4B648400DA346B /* ResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C1B1A2A4B648300DA346B /* ResourcesView.swift */; };
+		867C1B1D2A4B649500DA346B /* FactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C1B1C2A4B649500DA346B /* FactsView.swift */; };
 		86A8D26D2A4A12D30017CAFA /* EquiSTEMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A8D26C2A4A12D30017CAFA /* EquiSTEMApp.swift */; };
 		86A8D26F2A4A12D30017CAFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A8D26E2A4A12D30017CAFA /* ContentView.swift */; };
 		86A8D2712A4A12DB0017CAFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A8D2702A4A12DB0017CAFA /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		867C1B182A4B63A400DA346B /* ImpactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactView.swift; sourceTree = "<group>"; };
+		867C1B1A2A4B648300DA346B /* ResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesView.swift; sourceTree = "<group>"; };
+		867C1B1C2A4B649500DA346B /* FactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsView.swift; sourceTree = "<group>"; };
 		86A8D2692A4A12D30017CAFA /* EquiSTEM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EquiSTEM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A8D26C2A4A12D30017CAFA /* EquiSTEMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquiSTEMApp.swift; sourceTree = "<group>"; };
 		86A8D26E2A4A12D30017CAFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +103,9 @@
 			children = (
 				86A8D26C2A4A12D30017CAFA /* EquiSTEMApp.swift */,
 				86A8D26E2A4A12D30017CAFA /* ContentView.swift */,
+				867C1B182A4B63A400DA346B /* ImpactView.swift */,
+				867C1B1A2A4B648300DA346B /* ResourcesView.swift */,
+				867C1B1C2A4B649500DA346B /* FactsView.swift */,
 				86A8D2702A4A12DB0017CAFA /* Assets.xcassets */,
 				86A8D2722A4A12DB0017CAFA /* EquiSTEM.entitlements */,
 				86A8D2732A4A12DB0017CAFA /* Preview Content */,
@@ -259,6 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				867C1B1D2A4B649500DA346B /* FactsView.swift in Sources */,
+				867C1B1B2A4B648400DA346B /* ResourcesView.swift in Sources */,
+				867C1B192A4B63A400DA346B /* ImpactView.swift in Sources */,
 				86A8D26F2A4A12D30017CAFA /* ContentView.swift in Sources */,
 				86A8D26D2A4A12D30017CAFA /* EquiSTEMApp.swift in Sources */,
 			);
