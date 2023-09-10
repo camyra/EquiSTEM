@@ -17,6 +17,10 @@
 		86A8D27F2A4A12DC0017CAFA /* EquiSTEMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A8D27E2A4A12DC0017CAFA /* EquiSTEMTests.swift */; };
 		86A8D2892A4A12DC0017CAFA /* EquiSTEMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A8D2882A4A12DC0017CAFA /* EquiSTEMUITests.swift */; };
 		86A8D28B2A4A12DC0017CAFA /* EquiSTEMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A8D28A2A4A12DC0017CAFA /* EquiSTEMUITestsLaunchTests.swift */; };
+		979F74902AAE3F6D00996AF3 /* ScholarshipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F748F2AAE3F6D00996AF3 /* ScholarshipsView.swift */; };
+		979F74922AAE3F8000996AF3 /* FreeCoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F74912AAE3F8000996AF3 /* FreeCoursesView.swift */; };
+		979F74942AAE3F9100996AF3 /* InternshipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F74932AAE3F9100996AF3 /* InternshipsView.swift */; };
+		979F74962AAE404600996AF3 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 979F74952AAE404600996AF3 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		86A8D2842A4A12DC0017CAFA /* EquiSTEMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EquiSTEMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A8D2882A4A12DC0017CAFA /* EquiSTEMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquiSTEMUITests.swift; sourceTree = "<group>"; };
 		86A8D28A2A4A12DC0017CAFA /* EquiSTEMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquiSTEMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		979F748F2AAE3F6D00996AF3 /* ScholarshipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScholarshipsView.swift; sourceTree = "<group>"; };
+		979F74912AAE3F8000996AF3 /* FreeCoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeCoursesView.swift; sourceTree = "<group>"; };
+		979F74932AAE3F9100996AF3 /* InternshipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternshipsView.swift; sourceTree = "<group>"; };
+		979F74952AAE404600996AF3 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +113,12 @@
 				86A8D26E2A4A12D30017CAFA /* ContentView.swift */,
 				867C1B182A4B63A400DA346B /* ImpactView.swift */,
 				867C1B1A2A4B648300DA346B /* ResourcesView.swift */,
+				979F748F2AAE3F6D00996AF3 /* ScholarshipsView.swift */,
+				979F74912AAE3F8000996AF3 /* FreeCoursesView.swift */,
+				979F74932AAE3F9100996AF3 /* InternshipsView.swift */,
 				867C1B1C2A4B649500DA346B /* FactsView.swift */,
 				86A8D2702A4A12DB0017CAFA /* Assets.xcassets */,
+				979F74952AAE404600996AF3 /* Colors.xcassets */,
 				86A8D2722A4A12DB0017CAFA /* EquiSTEM.entitlements */,
 				86A8D2732A4A12DB0017CAFA /* Preview Content */,
 			);
@@ -242,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				979F74962AAE404600996AF3 /* Colors.xcassets in Resources */,
 				86A8D2752A4A12DB0017CAFA /* Preview Assets.xcassets in Resources */,
 				86A8D2712A4A12DB0017CAFA /* Assets.xcassets in Resources */,
 			);
@@ -270,9 +283,12 @@
 			files = (
 				867C1B1D2A4B649500DA346B /* FactsView.swift in Sources */,
 				867C1B1B2A4B648400DA346B /* ResourcesView.swift in Sources */,
+				979F74942AAE3F9100996AF3 /* InternshipsView.swift in Sources */,
 				867C1B192A4B63A400DA346B /* ImpactView.swift in Sources */,
+				979F74922AAE3F8000996AF3 /* FreeCoursesView.swift in Sources */,
 				86A8D26F2A4A12D30017CAFA /* ContentView.swift in Sources */,
 				86A8D26D2A4A12D30017CAFA /* EquiSTEMApp.swift in Sources */,
+				979F74902AAE3F6D00996AF3 /* ScholarshipsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,10 +440,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = EquiSTEM/EquiSTEM.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EquiSTEM/Preview Content\"";
-				DEVELOPMENT_TEAM = 8JA873P3GP;
+				DEVELOPMENT_TEAM = 72GR86DH4B;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -462,10 +480,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = EquiSTEM/EquiSTEM.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EquiSTEM/Preview Content\"";
-				DEVELOPMENT_TEAM = 8JA873P3GP;
+				DEVELOPMENT_TEAM = 72GR86DH4B;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
